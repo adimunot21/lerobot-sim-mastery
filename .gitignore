@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environments
+.env
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LeRobot cache (downloaded datasets — large)
+data/
+
+# Training outputs (checkpoints can be huge)
+outputs/eval_act/*.mp4
+outputs/eval_diffusion/*.mp4
+
+# Wandb local files
+wandb/
+
+# Logs
+*.log
+
+# Large model files (push to HF Hub instead)
+*.pt
+*.safetensors
+*.ckpt

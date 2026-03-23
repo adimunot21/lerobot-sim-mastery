@@ -1,0 +1,4 @@
+lerobot[aloha] @ git+https://github.com/huggingface/lerobot.git
+wandb
+seaborn
+pytest
