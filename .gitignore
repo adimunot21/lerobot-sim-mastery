@@ -22,12 +22,8 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# LeRobot cache (downloaded datasets — large)
+# LeRobot cache
 data/
-
-# Training outputs (checkpoints can be huge)
-outputs/eval_act/*.mp4
-outputs/eval_diffusion/*.mp4
 
 # Wandb local files
 wandb/
@@ -35,9 +31,15 @@ wandb/
 # Logs
 *.log
 
-# Large model files (push to HF Hub instead)
-*.pt
+# Large model files (on HF Hub instead)
 *.safetensors
 *.ckpt
+*.pt
+
+# Kaggle downloads
 kaggle_download/
 kaggle_download_diffusion/
+
+# Training checkpoints (on HF Hub)
+outputs/train/*/checkpoints/
+outputs/train/*/wandb/
