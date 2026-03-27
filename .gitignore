@@ -39,3 +39,5 @@ wandb/
 *.pt
 *.safetensors
 *.ckpt
+kaggle_download/
+kaggle_download_diffusion/
