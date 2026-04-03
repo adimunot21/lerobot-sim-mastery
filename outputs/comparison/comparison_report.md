@@ -13,6 +13,7 @@ Pick up a cube with the right arm and transfer it to the left arm.
 |-----|--------|-------|------------|-----|-------------|------------|
 | ACT (local, bs4, 80k) | ACT | 80,000 | 4 | GTX 1650 | 44% | 148.1 |
 | ACT (Kaggle, bs16, 40k) | ACT | 40,000 | 16 | T4 | 58% | 186.5 |
+| ACT (A40, bs32, 100k) | ACT | 100,000 | 32 | A40 | 52% | 157.0 |
 | Diffusion (Kaggle, bs16, 35k) | Diffusion | 35,000 | 16 | T4 | 10% | 29.0 |
 
 Reference: ACT trained on A100 with batch_size=8 for 80k steps achieves ~90% success.

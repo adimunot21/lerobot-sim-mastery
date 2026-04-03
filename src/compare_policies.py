@@ -50,6 +50,15 @@ EVAL_RUNS = [
         "notes": "Better batch size, fewer steps, still outperforms local",
     },
     {
+        "name": "ACT (A40, bs32, 100k)",
+        "policy_type": "ACT",
+        "eval_dir": "outputs/eval_act_a40",
+        "steps": 100_000,
+        "batch_size": 32,
+        "gpu": "A40",
+        "notes": "RunPod A40, highest compute budget",
+    },
+    {
         "name": "Diffusion (Kaggle, bs16, 35k)",
         "policy_type": "Diffusion",
         "eval_dir": "outputs/eval_diffusion",
